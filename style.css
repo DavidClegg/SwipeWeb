@@ -5,12 +5,21 @@ body{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    overflow: hidden;
+    background: linear-gradient(180deg, #ddd, #ccc);
 }
 .box{
     width: 100%;
+    height: 1rem;
     padding: 1rem 0;
     margin: 1rem 0;
     background: orange;
     text-align: center;
     position: relative;
+    overflow: hidden;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
