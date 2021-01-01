@@ -1,0 +1,16 @@
+:root{
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.box{
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    background: orange;
+    text-align: center;
+    position: relative;
+}
